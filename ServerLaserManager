@@ -62,3 +62,4 @@ end
 eventsFolder.DamageCharacter.OnServerEvent:Connect(damageCharacter)
 -- Passing the playerFiredLaser() function into the remoteEvent, so it can run on the server.
 eventsFolder.LaserFired.OnServerEvent:Connect(playerFiredLaser)
+ 
