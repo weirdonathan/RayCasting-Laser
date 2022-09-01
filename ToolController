@@ -71,7 +71,7 @@ local function getWorldMousePosition()
 	else
 		-- If not object was hit, then calculate the position at the end of the Ray.
 		return screenToWorldRay.Origin + directionVector
-	end
+	end 
 end
 
 local function fireWeapon()
