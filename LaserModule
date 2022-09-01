@@ -31,6 +31,6 @@ function LaserRenderer.createLaster(toolHandle, endPosition)
 	if shootingSound then
 		shootingSound:Play()
 	end
-end
+end 
 
 return LaserRenderer
