@@ -19,3 +19,4 @@ local function createPlayerLaser(playerWhoShot, toolHandle, endPosition)
 end
 
 eventsFolder.LaserFired.OnClientEvent:Connect(createPlayerLaser)
+ 
